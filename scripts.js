@@ -5,7 +5,7 @@ $(document).ready(function() {
 
     function getNewQuote() {
         $.ajax({
-            url: 'http://api.forismatic.com/api/1.0/',
+            url: 'https://api.forismatic.com/api/1.0/',
             jsonp: 'jsonp',
             dataType: 'jsonp',
             data: {
@@ -16,7 +16,6 @@ $(document).ready(function() {
             success: function(response) {
                 quote = response.quoteText;
                 author = response.quoteAuthor;
-                console.log(response)
                 $('.quote').text(quote);
                 if (author) {
                     $('.author').text('- '+ author);
