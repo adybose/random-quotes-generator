@@ -67,14 +67,14 @@ body {
     padding: 7px 0; 
 }
 
-.quote-container .quote-body .quote-buttons .social a {
+.quote-container .quote-body .quote-buttons .tweet-quote a {
     font-size: 40px;
     color: #455261;
     transition: .3s ease;
 
 }
 
-.quote-container .quote-body .quote-buttons .social a:hover {
+.quote-container .quote-body .quote-buttons .tweet-quote a:hover {
     color: #00acee;  
 }
 
