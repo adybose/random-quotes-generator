@@ -21,8 +21,8 @@ $(document).ready(function() {
                 if (author) {
                     $('.author').text('- '+ author);
                 } else {
-                    $('.author').text('- Unknown');
-                }
+                    author = 'Unknown';
+                    $('.author').text('- '+ author);                }
             }
         });
     }
