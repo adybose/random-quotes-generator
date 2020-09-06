@@ -35,6 +35,6 @@ $(document).ready(function() {
 
     $('.tweet-quote').on('click', function(event) {
         event.preventDefault();
-        window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(quote + '- ' + author + footer));
+        window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(quote + '\n- ' + author + footer));
     });
 });
